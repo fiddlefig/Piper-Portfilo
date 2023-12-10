@@ -1,0 +1,101 @@
+html {
+    background-color: rgb(221, 221, 221);
+    
+    
+    
+}
+@font-face {
+    font-family: "Dream Orphans";
+    src: url(/font/Dream\ Orphans.otf);
+}
+@font-face {
+    font-family: "playfair display";
+    src: url(/font/playfair\ display.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #f8f5eb;
+}
+a:hover {
+    color: #6f8f6f;
+}
+.header {
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
+    background-color: #a5c589;
+    padding: 15px;
+    color: #f8f5eb;
+    font-family: "Dream Orphans";
+}
+.name {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.links {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.link {
+    padding: 8px;
+}
+
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(10, 135px);
+    grid-template-rows: repeat(12, 80px);
+    background-color: #f8f5eb;
+    font-family: "playfair display";
+}
+.profile img {
+    grid-column: 2/3;
+    grid-row: 2;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 50px;
+    padding: 20px;
+}
+.profile span {
+    grid-column: 6/10;
+    grid-row: 2/6;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px;
+    padding: 20px;
+    border-style: groove;
+    border-radius: 10px;
+    
+}
+.profile p {
+    font-size: 20px;
+    grid-column: 4/8;
+    grid-row: 9;
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
+}
+.profile h2 {
+    grid-column: 5/7;
+    grid-row: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(148, 148, 148);
+}
+
